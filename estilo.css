@@ -3,15 +3,16 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  background-color: rgb(178, 235, 216);
 }
 
 header {
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 
@@ -33,7 +34,7 @@ nav li {
 
 nav ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 nav ul li:last-child {
@@ -59,10 +60,14 @@ section {
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+  border-radius: 5px; 
+  font-size: 20px;
+  
 }
 
+
 #modo-nocturno:hover {
-  background-color: #555;
+  background-color: #333;
 }
 
 .modo-nocturno {
@@ -77,8 +82,14 @@ section {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
+  
 }
 
 .boton:hover {
   background-color: #0056b3;
+  
+}
+
+#trabajos {
+  font-size: 1%;
 }
