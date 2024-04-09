@@ -1,9 +1,10 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 10;
   text-align: center;
   background-color: rgb(178, 235, 216);
+  font-size: 22px;
 }
 
 header {
@@ -93,3 +94,11 @@ section {
 #trabajos {
   font-size: 1%;
 }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
